@@ -1,0 +1,55 @@
+main{
+    font-size: $text-size;
+     div{
+         div{
+             div{
+                 img{
+                    height: 31.25rem;
+                    object-fit: fill;
+                 }
+             }
+         }
+     } 
+     
+     .populares {  
+        padding-top: 1.25rem;
+        margin: auto;
+            h3 {
+            text-align: center;
+            color: black;
+            margin-bottom: 3.125rem;
+            font-size: $tittle-size;
+         }
+         .card-cont{
+            padding-bottom: 1.25rem;
+            .card{
+                .card-img-top {
+                    height: 31.25rem;
+                    object-fit:cover;
+                  }
+                .card-body{
+                    background-color: #3F7C17;
+                    height: 10.625rem;
+                }
+            }
+          }
+        }
+
+     .medidas {
+        padding-top: 1.25rem;
+        margin: auto;
+        h3{
+            font-size: $tittle-size;
+        }
+        .balanza{
+            height: 42.5rem;
+            object-fit: cover;
+        }
+     }
+
+
+
+
+
+
+    }
