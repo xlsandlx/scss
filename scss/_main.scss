@@ -5,19 +5,16 @@ main{
              div{
                  img{
                     height: 31.25rem;
-                    object-fit: fill;
+                    object-fit: none;
                  }
              }
          }
      } 
      
      .populares {  
-        padding-top: 1.25rem;
-        margin: auto;
+        @include pad-mar;
             h3 {
-            text-align: center;
-            color: black;
-            margin-bottom: 3.125rem;
+           @extend %subtitulo;
             font-size: $tittle-size;
          }
          .card-cont{
@@ -29,21 +26,20 @@ main{
                   }
                 .card-body{
                     background-color: #3F7C17;
-                    height: 10.625rem;
+                    // height: 10.625rem;
                 }
             }
           }
         }
 
      .medidas {
-        padding-top: 1.25rem;
-        margin: auto;
+      @include pad-mar;
         h3{
             font-size: $tittle-size;
         }
         .balanza{
             height: 42.5rem;
-            object-fit: cover;
+            object-fit: scale-down;
         }
      }
 

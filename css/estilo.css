@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+main .populares h3 {
+  text-align: center;
+  color: black;
+  margin-bottom: 3.125rem; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -29,14 +34,11 @@ main {
   font-size: 150%; }
   main div div div img {
     height: 31.25rem;
-    object-fit: fill; }
+    object-fit: none; }
   main .populares {
     padding-top: 1.25rem;
     margin: auto; }
     main .populares h3 {
-      text-align: center;
-      color: black;
-      margin-bottom: 3.125rem;
       font-size: 320%; }
     main .populares .card-cont {
       padding-bottom: 1.25rem; }
@@ -44,8 +46,7 @@ main {
         height: 31.25rem;
         object-fit: cover; }
       main .populares .card-cont .card .card-body {
-        background-color: #3F7C17;
-        height: 10.625rem; }
+        background-color: #3F7C17; }
   main .medidas {
     padding-top: 1.25rem;
     margin: auto; }
@@ -53,7 +54,7 @@ main {
       font-size: 320%; }
     main .medidas .balanza {
       height: 42.5rem;
-      object-fit: cover; }
+      object-fit: scale-down; }
 
 footer {
   max-width: 100%;
@@ -71,8 +72,12 @@ footer {
       color: white;
       text-decoration: none;
       font-size: 2.5rem; }
-      footer .footer .redSocial a:hover {
-        color: green; }
+    footer .footer .redSocial .twitter:hover {
+      color: #1DABDD; }
+    footer .footer .redSocial .facebook:hover {
+      color: #3B5998; }
+    footer .footer .redSocial .instagram:hover {
+      color: #BC2A8D; }
   footer h3 {
     text-align: center;
     color: white;

@@ -1,0 +1,12 @@
+.-Agregue mixin utilizandolo para modificar
+el padin y el margin de los subtitulos en todas mis
+paginas del sitio de tal manera que el subtitulo q se encuentra
+en el main quede a una distancia adecuada del nav del header
+
+.-Utilice extend en los subtitulos para darles estilo
+
+.-Agregue map para definir los colores del hover de las redes sociales pertenecientes al footer
+
+.-Mixin en el div de redes para dar estilo
+
+.-Mejore el texto y subtitulos para optimizar el SEO a la hora de buscar mi sitio

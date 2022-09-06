@@ -10,15 +10,23 @@ footer {
         justify-content: space-around;
         .redSocial{
             a{
-                display: inline-block;
-                padding: 0.9375rem 1.25rem;
-                color: white;
-                text-decoration: none;
-                font-size: 2.5rem;
-                &:hover{
-                    color: $color-hover;
-                }
+                @include redes;
             }
+         .twitter {
+            &:hover {
+                color: map-get($redes,twitter );
+            }
+        }
+        .facebook {
+            &:hover {
+                color: map-get($redes,facebook );
+            }
+        }
+        .instagram {
+            &:hover {
+                color: map-get($redes,instagram );
+            }
+        }
         } 
       }
       h3{
