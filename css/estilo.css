@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-main .populares h3 {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+main .populares h2, main .medidas h2 {
+  font-size: 5rem;
   text-align: center;
   color: black;
   margin-bottom: 3.125rem; }
@@ -11,7 +12,7 @@ main .populares h3 {
 body {
   /* background-color: #E9E9D0; */
   background-color: #CECEB5;
-  font-family: 'Dancing Script', cursive; }
+  font-family: 'Montserrat', sans-serif; }
 
 header {
   background-image: url(../img/header.png);
@@ -31,30 +32,26 @@ header {
       color: green; }
 
 main {
-  font-size: 150%; }
+  font-size: 1.5625rem; }
   main div div div img {
     height: 31.25rem;
     object-fit: none; }
   main .populares {
     padding-top: 1.25rem;
     margin: auto; }
-    main .populares h3 {
-      font-size: 320%; }
     main .populares .card-cont {
       padding-bottom: 1.25rem; }
       main .populares .card-cont .card .card-img-top {
         height: 31.25rem;
         object-fit: cover; }
       main .populares .card-cont .card .card-body {
-        background-color: #3F7C17; }
+        background-color: #3f7c17; }
+        main .populares .card-cont .card .card-body a {
+          color: black;
+          background-color: #3f7c17; }
   main .medidas {
     padding-top: 1.25rem;
     margin: auto; }
-    main .medidas h3 {
-      font-size: 320%; }
-    main .medidas .balanza {
-      height: 42.5rem;
-      object-fit: scale-down; }
 
 footer {
   max-width: 100%;

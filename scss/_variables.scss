@@ -1,6 +1,6 @@
 $color-hover: green;
-$text-size: 150%;
-$tittle-size: 320%;
+$text-size: 1.5625rem;
+$tittle-size: 2.1875rem;
 @mixin pad-mar ($padding:1.25rem) {
     padding-top: $padding;
     margin: auto;
@@ -19,6 +19,7 @@ $redes: (
     );
 
 %subtitulo {
+    font-size: 5rem;
     text-align: center;
     color: black;
     margin-bottom: 3.125rem;
